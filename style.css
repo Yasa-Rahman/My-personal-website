@@ -1,0 +1,156 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 50px;
+
+  margin-bottom: 60px;
+}
+
+span {
+  color:#E94B3CFF;
+}
+.flx {
+  display: flex;
+}
+.half {
+  width: 100%;
+  padding: 6%;
+  text-align: center;
+}
+.together {
+  font-size: 30px;
+}
+.together span {
+  font-size: 35px;
+}
+.half img {
+  width: 70%;
+  height: 450px;
+}
+.head {
+  margin-bottom: 20px;
+}
+.head2 {
+  margin-bottom: 10px;
+}
+.about {
+  margin-bottom: 25px;
+}
+.top {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
+}
+.second {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.link-button {
+  padding: 10px 40px;
+  background-color: #2D2926FF;
+  color: #E94B3CFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+.experience h1 {
+  text-align: center;
+}
+.experience {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.e {
+  text-align: center;
+}
+.exp {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+hr {
+  width: 20%;
+  text-align: center;
+  margin: 30px 40%;
+}
+.box h3 {
+  color: orangered;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.box h1 {
+  font-size: 40px;
+}
+.box {
+  width: 40%;
+
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 25px;
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 15px;
+  border-left: 10px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+  color: black;
+  padding: 20px;
+  background-color: gray;
+}
+.half img:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.link-button:hover {
+  background: white;
+  border: 1px solid black;
+  color: black;
+  transition: 0.5s;
+}
+
+/* Tablet responsive */
+@media only screen and (min-width: 700px) and (max-width: 1200px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .exp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .exp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .head h1 {
+    font-size: 30px;
+  }
+}
